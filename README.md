@@ -43,7 +43,7 @@ O template está disponível na seguinte url: **[Acessar Template](https://githu
 Agora navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências, e você terá algo parecido com isso:
 
 <p align="center">
-  <img  src="./assets/nodejs-example.png">
+  <img  src="https://github.com/Rocketseat/bootcamp-gostack-desafios/raw/master/desafio-conceitos-nodejs/assets/nodejs-example.png">
 </p>
 
 ### Rotas da aplicação
