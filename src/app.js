@@ -15,7 +15,23 @@ app.get('/repositories', (request, response) => {
 })
 
 app.post('/repositories', (request, response) => {
-  // TODO
+  const {
+    techs,
+    title,
+    url
+  } = request.body
+
+  const repository = {
+    id: uuid(),
+    techs,
+    title,
+    url,
+    likes: 0
+  }
+
+  repositories.push(repository)
+
+  return response.json(repository)
 })
 
 app.put('/repositories/:id', (request, response) => {
